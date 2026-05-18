@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* ClearHeart Brand Colors */
+    --background: 40 20% 98%; /* #F9F7F4 - Cream */
+    --foreground: 210 15% 25%; /* #2C3E50 - Deep Charcoal */
+    
+    --card: 0 0% 100%;
+    --card-foreground: 210 15% 25%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 15% 25%;
+    
+    --primary: 172 48% 36%; /* #2D8B7F - Warm Teal */
+    --primary-foreground: 40 20% 98%; /* #F9F7F4 */
+    
+    --secondary: 32 50% 64%; /* #D4A574 - Warm Gold */
+    --secondary-foreground: 210 15% 25%;
+    
+    --muted: 171 28% 93%; /* #E8F4F2 - Light Teal */
+    --muted-foreground: 147 21% 52%; /* #6B9E7F - Sage Green */
+    
+    --accent: 32 50% 94%; /* Light Warm Goldish */
+    --accent-foreground: 32 50% 64%;
+    
+    --destructive: 5 76% 64%; /* #E8695C - Coral Red */
+    --destructive-foreground: 40 20% 98%;
+    
+    --border: 171 28% 90%; /* Light Tealish Border */
+    --input: 171 28% 90%;
+    --ring: 172 48% 36%;
+    
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    /* Keep it warm even in dark mode */
+    --background: 210 15% 15%;
+    --foreground: 40 20% 95%;
+    --card: 210 15% 20%;
+    --card-foreground: 40 20% 95%;
+    --primary: 172 48% 45%;
+    --primary-foreground: 210 15% 15%;
+    --secondary: 32 50% 64%;
+    --secondary-foreground: 210 15% 15%;
+    --muted: 210 15% 25%;
+    --muted-foreground: 147 21% 60%;
+    --accent: 210 15% 25%;
+    --accent-foreground: 172 48% 45%;
+    --destructive: 5 76% 55%;
+    --destructive-foreground: 40 20% 95%;
+    --border: 210 15% 25%;
+    --input: 210 15% 25%;
+    --ring: 172 48% 45%;
+  }
+}
